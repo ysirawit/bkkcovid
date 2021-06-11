@@ -140,8 +140,8 @@ const ChartBlock = ({
       <g transform={`translate(${0},${0})`}>
         <rect width={textBoxWidth} height={boxHeight} rx={16} fill={fillPanel} />
         <g transform={`translate(${textBoxWidth / 2},${boxHeight / 2 - 6 - (notes ? 8 : 0)})`}>
-          <text y={-44} dominantBaseline="middle" textAnchor="middle" fontWeight="400" fontSize={24} class="text-white">{label}</text>
-          <text y={0} dominantBaseline="middle" textAnchor="middle" fontWeight="600" fontSize={48} class="text-white">
+          <text y={-34} dominantBaseline="middle" textAnchor="middle" fontWeight="400" fontSize={24} class="text-white">{label}</text>
+          <text y={10} dominantBaseline="middle" textAnchor="middle" fontWeight="600" fontSize={48} class="text-white">
             +{latestValue?.toLocaleString?.()}
           </text>
           {((latestValueOutskirt ?? null) !== null) &&
@@ -155,7 +155,7 @@ const ChartBlock = ({
             </text>
           }
         </g>
-        <text x={textBoxWidth / 2} y={boxHeight - boxPadding} dominantBaseline="baseline" textAnchor="middle" fontWeight="400" fontSize={20} class="text-white" style={{ opacity: 0.5 }}>
+        <text x={textBoxWidth / 2} y={boxHeight - boxPadding - 10} dominantBaseline="baseline" textAnchor="middle" fontWeight="400" fontSize={20} class="text-white" style={{ opacity: 0.5 }}>
           สะสม {accumulated?.toLocaleString?.()} ราย
         </text>
       </g>

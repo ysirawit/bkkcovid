@@ -217,7 +217,7 @@ const Chart = ({
             }}
           >
             <text x={pad} y={pad} fontSize={24} dominantBaseline="hanging" fontWeight="600">สถานการณ์ COVID-19 ใน</text>
-            <text x={pad} y={pad + 20} fontSize={39} dominantBaseline="hanging" fontWeight="600">กรุงเทพมหานคร</text>
+            <text x={pad} y={pad + 20} fontSize={39} dominantBaseline="hanging" fontWeight="600">ตราด</text>
 
             <rect x={width - pad - 160} y={pad} width={160} height={64} rx={16} fill={lastestDay.dayColor} />
             <text x={width - pad - 80} y={pad + 10} dominantBaseline="hanging" textAnchor="middle" fontWeight="400" fontSize={16} class="text-white">ประจำวัน{lastestDay.weekdayStr}ที่</text>
@@ -236,7 +236,7 @@ const Chart = ({
               rawSeries={bangkokNewCases}
               smoothedSeries={smoothedNewCases}
               accumulated={processedData?.[processedData.length - 1]?.bangkok?.accumulated_cases}
-              latestValueOutskirt={processedData?.[processedData.length - 1]?.bangkok?.new_cases_outskirt}
+              // latestValueOutskirt={processedData?.[processedData.length - 1]?.bangkok?.new_cases_outskirt}
               latestValue={processedData?.[processedData.length - 1]?.bangkok?.new_cases}
               firstDate={processedData?.[0]?.date}
               latestDate={processedData?.[processedData?.length - 1]?.date}
@@ -257,7 +257,7 @@ const Chart = ({
               rawSeries={bangkokNewDeaths}
               smoothedSeries={smoothedNewDeaths}
               accumulated={processedData?.[processedData.length - 1]?.bangkok?.accumulated_death}
-              latestValueOutskirt={processedData?.[processedData.length - 1]?.bangkok?.new_death_outskirt}
+              // latestValueOutskirt={processedData?.[processedData.length - 1]?.bangkok?.new_death_outskirt}
               latestValue={processedData?.[processedData.length - 1]?.bangkok?.new_death}
               firstDate={processedData?.[0]?.date}
               latestDate={processedData?.[processedData?.length - 1]?.date}
@@ -265,8 +265,8 @@ const Chart = ({
               fillPanel="#fff1"
             />
 
-            <text x={pad} y={height - pad - 20} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">*ไม่รวมผู้ติดเชื้อในเรือนจำ / รวบรวมข้อมูลจาก ศบค. และ กทม. </text>
-            <text x={pad} y={height - pad} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">ติดตามสถานการณ์และและดูไฟล์ข้อมูลได้ที่ taepras.com/bkkcovid</text>
+            <text x={pad} y={height - pad - 20} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">รวบรวมข้อมูลจาก ศบค.</text>
+            {/* <text x={pad} y={height - pad} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">ติดตามสถานการณ์และและดูไฟล์ข้อมูลได้ที่ taepras.com/bkkcovid</text> */}
 
             <g transform={`translate(${width - pad},${height - pad})`}>
               <g transform={`translate(-54,-32)`}>
@@ -326,13 +326,15 @@ const Chart = ({
             <Button as="a" href="#" onClick={downloadPng} isFullWidth mb style={{ flexGrow: 1, flexBasis: 0, marginRight: '8px' }}>
               ดาวน์โหลดไฟล์ภาพ
             </Button>
-            <Button as="a" href="https://docs.google.com/spreadsheets/d/1VY6ddD-DdmgIlX_RiFZnIa7ZFXB-mH8nD0hVxaROrP0/edit#gid=0" target="_blank" isFullWidth mb style={{ flexGrow: 1, flexBasis: 0, marginLeft: '16px' }}>
+            <Button as="a" href="https://docs.google.com/spreadsheets/d/1sLiBQkKfbf5AK1n7cwMa4RrhyhavI8CmHJht_UVg4QY/edit#gid=1310505744" target="_blank" isFullWidth mb style={{ flexGrow: 1, flexBasis: 0, marginLeft: '16px' }}>
               ดูไฟล์ข้อมูล
             </Button>
           </div>
           <p style={{ lineHeight: 1.2 }}>
-            ขอบคุณข้อมูลตัวเลขจาก <a href="https://www.facebook.com/informationcovid19" target="_blank">ศบค.</a> และ <a href="http://www.bangkok.go.th/covid19" target="_blank">กทม.</a>
-            <br />รวบรวมข้อมูลและทำ visualization โดย
+            ขอบคุณข้อมูลตัวเลขจาก <a href="https://www.facebook.com/informationcovid19" target="_blank">ศบค.</a>, <a href="https://www.facebook.com/trattv" target="_blank">ตราดทีวี</a> และ <a href="https://www.facebook.com/TratpostNews" target="_blank">ตราดโพสนิวส์ </a>
+            <br />รวบรวมข้อมูลของจังหวัดตราด โดย ศิรวิทย์ ยี่ส่อง
+            <br />
+            <br />ขอบคุณ visualization จาก
             <br /><a href="https://taepras.com" target="_blank">ธนวิชญ์ ประสงค์พงษ์ชัย (taepras.com)</a>
             <br />
             <br />

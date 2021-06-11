@@ -26,7 +26,8 @@ const Container = styled.div`
 `
 
 const api_url_daily_cases = "https://covid19.th-stat.com/api/open/timeline";
-const gsheets_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR5KEVlTJbefwhG7GXg5swMW1rDSctbXuwZR-omHnxdet_DReCYnu0r_CVgzLTxwPqKlz4WMvKOppv1/pub?gid=0&single=true&output=csv";
+// const gsheets_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR5KEVlTJbefwhG7GXg5swMW1rDSctbXuwZR-omHnxdet_DReCYnu0r_CVgzLTxwPqKlz4WMvKOppv1/pub?gid=0&single=true&output=csv";
+const gsheets_url = "https://docs.google.com/spreadsheets/d/1sLiBQkKfbf5AK1n7cwMa4RrhyhavI8CmHJht_UVg4QY/export?format=csv&id=1sLiBQkKfbf5AK1n7cwMa4RrhyhavI8CmHJht_UVg4QY&gid=1310505744";
 
 const convDate = (x) => {
   return `${x.substr(6, 4)}-${x.substr(0, 2)}-${x.substr(3, 2)}`
