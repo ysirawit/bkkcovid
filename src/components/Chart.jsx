@@ -193,7 +193,7 @@ const Chart = ({
     })
       .then(function (dataUrl) {
         var link = document.createElement('a');
-        link.download = `bkkcovid-${lastestDay.iso}.png`;
+        link.download = `trat-covid-${lastestDay.iso}.png`;
         link.href = dataUrl;
         link.click();
       })
