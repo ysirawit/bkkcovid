@@ -284,7 +284,7 @@ const Chart = ({
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
             <div
               className="fb-share-button"
-              data-href="https://taepras.github.io/bkkcovid/"
+              data-href="https://ysirawit.github.io/bkkcovid/"
               data-layout="button"
               data-size="large"
               style={{ marginRight: '16px' }}
@@ -302,8 +302,8 @@ const Chart = ({
               href="https://twitter.com/share?ref_src=twsrc%5Etfw"
               className="twitter-share-button"
               data-size="large"
-              data-url="https://taepras.github.io/bkkcovid/"
-              data-via="taepras"
+              data-url="https://ysirawit.github.io/bkkcovid/"
+              // data-via="taepras"
               data-dnt="true"
               data-show-count="false"
             >
@@ -315,7 +315,7 @@ const Chart = ({
                 data-lang="en"
                 data-type="share-a"
                 data-ver="3"
-                data-url="https://taepras.github.io/bkkcovid/"
+                data-url="https://ysirawit.github.io/bkkcovid/"
                 data-color="default"
                 data-size="large"
                 data-count="false"

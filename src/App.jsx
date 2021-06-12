@@ -135,7 +135,7 @@ function App() {
           เสียชีวิต +{processedData?.[processedData?.length - 1]?.bangkok?.new_death?.toLocaleString?.()} (ปริมณฑล +{processedData?.[processedData?.length - 1]?.bangkok?.new_death_outskirt?.toLocaleString?.()})<br />
             <br />
           #กราฟโควิด #โควิดกรุงเทพ<br />
-          ติดตามสถานการณ์ได้ที่ https://taepras.com/bkkcovid<br />
+          ติดตามสถานการณ์ กทม. ได้ที่ https://taepras.com/bkkcovid<br />
           รวบรวมข้อมูลจาก ศบค. (@oc_ccsa) และ กทม. (@pr_bangkok)<br />
           </p>
         }
