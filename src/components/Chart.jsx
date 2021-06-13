@@ -284,14 +284,14 @@ const Chart = ({
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
             <div
               className="fb-share-button"
-              data-href="https://ysirawit.github.io/bkkcovid/"
+              data-href="https://ysirawit.github.io/tratcovid/"
               data-layout="button"
               data-size="large"
               style={{ marginRight: '16px' }}
             >
               <a
                 target="_blank"
-                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaepras.github.io%bkkcovid%2F&amp;src=sdkpreparse"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fysirawit.github.io%tratcovid%2F&amp;src=sdkpreparse"
                 className="fb-xfbml-parse-ignore"
                 rel="noreferrer"
               >
@@ -302,7 +302,7 @@ const Chart = ({
               href="https://twitter.com/share?ref_src=twsrc%5Etfw"
               className="twitter-share-button"
               data-size="large"
-              data-url="https://ysirawit.github.io/bkkcovid/"
+              data-url="https://ysirawit.github.io/tratcovid/"
               // data-via="taepras"
               data-dnt="true"
               data-show-count="false"
@@ -315,7 +315,7 @@ const Chart = ({
                 data-lang="en"
                 data-type="share-a"
                 data-ver="3"
-                data-url="https://ysirawit.github.io/bkkcovid/"
+                data-url="https://ysirawit.github.io/tratcovid/"
                 data-color="default"
                 data-size="large"
                 data-count="false"
