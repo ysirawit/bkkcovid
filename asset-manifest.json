@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/tratcovid/static/css/main.485ef3c9.chunk.css",
-    "main.js": "/tratcovid/static/js/main.6d329742.chunk.js",
-    "main.js.map": "/tratcovid/static/js/main.6d329742.chunk.js.map",
+    "main.js": "/tratcovid/static/js/main.bbc57c57.chunk.js",
+    "main.js.map": "/tratcovid/static/js/main.bbc57c57.chunk.js.map",
     "runtime-main.js": "/tratcovid/static/js/runtime-main.21797f70.js",
     "runtime-main.js.map": "/tratcovid/static/js/runtime-main.21797f70.js.map",
-    "static/js/2.b4ab2eef.chunk.js": "/tratcovid/static/js/2.b4ab2eef.chunk.js",
-    "static/js/2.b4ab2eef.chunk.js.map": "/tratcovid/static/js/2.b4ab2eef.chunk.js.map",
+    "static/js/2.4d01b711.chunk.js": "/tratcovid/static/js/2.4d01b711.chunk.js",
+    "static/js/2.4d01b711.chunk.js.map": "/tratcovid/static/js/2.4d01b711.chunk.js.map",
     "static/js/3.1958b643.chunk.js": "/tratcovid/static/js/3.1958b643.chunk.js",
     "static/js/3.1958b643.chunk.js.map": "/tratcovid/static/js/3.1958b643.chunk.js.map",
     "index.html": "/tratcovid/index.html",
     "static/css/main.485ef3c9.chunk.css.map": "/tratcovid/static/css/main.485ef3c9.chunk.css.map",
-    "static/js/2.b4ab2eef.chunk.js.LICENSE.txt": "/tratcovid/static/js/2.b4ab2eef.chunk.js.LICENSE.txt",
+    "static/js/2.4d01b711.chunk.js.LICENSE.txt": "/tratcovid/static/js/2.4d01b711.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/tratcovid/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.21797f70.js",
-    "static/js/2.b4ab2eef.chunk.js",
+    "static/js/2.4d01b711.chunk.js",
     "static/css/main.485ef3c9.chunk.css",
-    "static/js/main.6d329742.chunk.js"
+    "static/js/main.bbc57c57.chunk.js"
   ]
 }
