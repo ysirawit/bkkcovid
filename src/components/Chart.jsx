@@ -273,7 +273,7 @@ const Chart = ({
               fillPanel="#fff1"
             />
 
-            <text x={pad} y={height - pad - 20} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">รวบรวมข้อมูลจาก ศบค.</text>
+            <text x={pad} y={height - pad - 20} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">รวบรวมข้อมูลจาก แถลงการณ์ประจำวัน ศบค., ตราดทีวี และ ตราดโพสต์ นิวส์ </text>
             {/* <text x={pad} y={height - pad} dominantBaseline="bottom" fontWeight="400" fontSize={16} fill="#222">ติดตามสถานการณ์และและดูไฟล์ข้อมูลได้ที่ taepras.com/bkkcovid</text> */}
 
             <g transform={`translate(${width - pad},${height - pad})`}>
